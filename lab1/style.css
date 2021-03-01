@@ -1,0 +1,30 @@
+.t3 {
+    transform: rotateX(200deg);
+  }
+  #img-radius  {
+    border:3px solid #85A0C9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    
+   }
+   .column {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+   }
+   .gradient {
+    background: linear-gradient(to top, #fefcea, #07d86f);
+    padding: 1px;
+    border: 1px solid #333;
+   }
+ 
