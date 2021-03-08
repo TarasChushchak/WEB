@@ -1,0 +1,40 @@
+
+p{
+	font-size: 17pt;
+}
+
+input{
+	background-color: white;
+	transition: .5s;
+}
+
+input:focus{
+	transition: .5s;
+	background-color: #dadcf0;
+}
+
+textarea:focus{
+	transition: .5s;
+	background-color: #dadcf0;
+}
+
+h1 {
+	margin-left: 20px;
+	font-style: italic;
+}
+
+h1:before{
+	margin-right: 10px;
+	content: "|";
+	color: blue;
+}
+
+button {
+	background: linear-gradient(#b5b5b5, #c2c3cf);
+	margin-top: 20px;
+	box-shadow: 0 0 2px black;
+}
+
+body{
+	background-color: #eeeeee;
+}
